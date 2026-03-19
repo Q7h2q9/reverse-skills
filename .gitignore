@@ -1,0 +1,4 @@
+*.tar
+*.i64
+*.idb
+export-for-ai/
