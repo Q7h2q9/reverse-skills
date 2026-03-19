@@ -2,3 +2,5 @@
 *.i64
 *.idb
 export-for-ai/
+
+skills/ida-analyze
