@@ -32,8 +32,8 @@ Please export decompilation results using IDA-NO-MCP plugin first:
 ```
 ./
 ├── decompile/              # Decompiled C code directory
-│   ├── 0x401000.c          # One file per function, named by hex address
-│   ├── 0x401234.c
+│   ├── 401000.c            # One file per function, named by hex address (no 0x prefix)
+│   ├── 401234.c
 │   └── ...
 ├── decompile_failed.txt    # Failed decompilation list
 ├── decompile_skipped.txt   # Skipped functions list

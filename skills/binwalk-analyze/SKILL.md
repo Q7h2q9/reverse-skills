@@ -80,5 +80,5 @@ _firmware.bin.extracted/
 ```bash
 /usr/bin/binwalk -eM firmware.bin
 find _firmware.bin.extracted/ -type f -exec file {} \; | grep ELF
-/home/user/q7h2q9/tools/IDA9.2/ida-analyze <path_to_elf>
+/home/user/q7h2q9/tools/IDA9.1/ida-analyze <path_to_elf>
 ```
